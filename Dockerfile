@@ -3,7 +3,7 @@
 # Render reads it and builds the image for you. You do not need Docker on your laptop.
 
 # 1. Start from an official image that already has PHP 8.4 (Laravel 13 needs 8.3 or newer)
-FROM php:8.3-fpm
+FROM php:8.4-fpm
 
 # 2. Install NGINX (the web server) and the libraries some PHP extensions need
 RUN apt-get update \
